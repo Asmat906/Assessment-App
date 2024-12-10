@@ -1,16 +1,11 @@
 # makeup_browser
 
-A new Flutter project.
+The above is an assessment task and a small application implementing a modern and scalable MVVM design pattern with Provider for state management. The app is powered by Hive, a lightweight and fast local database, ensuring efficient data handling and offline functionality.
 
-## Getting Started
+Product Screen: Displays a comprehensive list of products. On selecting an item, the app navigates to the Detail Screen for detailed information.
 
-This project is a starting point for a Flutter application.
+Detail Screen: Users can add items to the cart or view their cart contents directly.
 
-A few resources to get you started if this is your first Flutter project:
+Cart Screen: Showcases all items added to the cart, with functionality to remove items dynamically.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this project , I have used the Provider state management, MVVM design Pattern and give database used for cart.
