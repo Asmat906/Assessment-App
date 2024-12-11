@@ -8,4 +8,4 @@ Detail Screen: Users can add items to the cart or view their cart contents direc
 
 Cart Screen: Showcases all items added to the cart, with functionality to remove items dynamically.
 
-In this project , I have used the Provider state management, MVVM design Pattern and give database used for cart.
+In this project , I have used the Provider state management, MVVM design Pattern and hive database used for cart.
