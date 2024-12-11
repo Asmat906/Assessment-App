@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:makeup_browser/assets/colors.dart';
 import 'package:makeup_browser/model/cart_item_model.dart';

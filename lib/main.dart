@@ -18,7 +18,7 @@ void main() async {
       providers: [
         ChangeNotifierProvider(create: (_) => ProductViewModel()),
       ],
-      child: MyApp(),
+      child: const MyApp(),
     ),
   );
 }

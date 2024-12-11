@@ -28,7 +28,7 @@ double get _totalPrice => (_quantity * (widget.product['price']?.toDouble() ?? 0
   void _goToCartScreen() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => CartScreen()),
+      MaterialPageRoute(builder: (context) => const CartScreen()),
     );
   }
   void _decreaseQuantity() {
@@ -150,7 +150,7 @@ double get _totalPrice => (_quantity * (widget.product['price']?.toDouble() ?? 0
                         backgroundColor: primary_color,
                         padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                       ),
-                      child: Text(
+                      child: const Text(
                         'Add to Cart',
                         style: TextStyle(
                           fontSize: 16,

@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   textStyle: const TextStyle(fontSize: 16),
                 ),
-                child: Text('Retry'),
+                child: const Text('Retry'),
               ),
             ],
           ),
